@@ -2,10 +2,10 @@ import 'package:stackfood_multivendor_driver/feature/language/domain/models/lang
 import 'package:stackfood_multivendor_driver/util/images.dart';
 
 class AppConstants {
-  static const String appName = 'StackFood Delivery';
+  static const String appName = 'MyanFood Rider';
   static const double appVersion = 9.1; ///Flutter SDK: 3.44.2
 
-  static const String baseUrl = 'https://stackfood-admin.6amtech.com';
+  static const String baseUrl = 'https://www.myanfoodmm.com';
   static const String configUri = '/api/v1/config';
   static const String forgerPasswordUri = '/api/v1/auth/delivery-man/forgot-password';
   static const String verifyTokenUri = '/api/v1/auth/delivery-man/verify-token';
@@ -84,8 +84,6 @@ class AppConstants {
 
   static List<LanguageModel> languages = [
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
-    LanguageModel(imageUrl: Images.arabic, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
-    LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),
-    LanguageModel(imageUrl: Images.bengali, languageName: 'Bengali', countryCode: 'BN', languageCode: 'bn'),
+    LanguageModel(imageUrl: Images.myanmar, languageName: 'Myanmar', countryCode: 'MM', languageCode: 'my'),
   ];
 }

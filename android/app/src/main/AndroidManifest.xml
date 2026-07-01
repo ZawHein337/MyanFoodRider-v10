@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sixamtech.stack_food_delivery"
+    package="com.myanfood.rider"
     xmlns:tools="http://schemas.android.com/tools">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -39,14 +39,14 @@
 
     <application
         tools:replace="android:label"
-        android:label="StackFood Delivery"
+        android:label="MyanFood Rider"
         android:name="${applicationName}"
         android:extractNativeLibs="true"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ"/>
+            android:value="AIzaSyCA1uQiwXzcA5WpzDT1WvT7ma8-UtodpPQ"/>
 
         <activity
             android:name=".MainActivity"
@@ -88,7 +88,7 @@
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <service
-            android:name="com.sixamtech.stack_food_delivery.BackgroundService"
+            android:name="com.myanfood.rider.BackgroundService"
             android:enabled="true"
             android:exported="false" />
 

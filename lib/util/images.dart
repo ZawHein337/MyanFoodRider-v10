@@ -3,6 +3,7 @@ class Images {
   static const String logoName = 'assets/image/logo_name.png';
   static const String call = 'assets/image/call.png';
   static const String english = 'assets/image/english.png';
+  static const String myanmar = 'assets/image/myanmar.png';
   static const String arabic = 'assets/image/arabic.png';
   static const String spanish = 'assets/image/spanish.png';
   static const String bengali = 'assets/image/bangla.png';

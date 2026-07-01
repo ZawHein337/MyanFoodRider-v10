@@ -25,10 +25,10 @@ Future<void> main() async {
   if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyCc3OCd5I2xSlnftZ4bFAbuCzMhgQHLivA',
-        appId: '1:491987943015:android:a6fb4303cc4bf3d18f1ec2',
-        messagingSenderId: '491987943015',
-        projectId: 'stackmart-500c7',
+        apiKey: 'AIzaSyBYUv8qBxOQlJmrlk-foMU-d37VrbALJO4',
+        appId: '1:823485232405:android:dbe6381d281d86d4c5651c',
+        messagingSenderId: '823485232405',
+        projectId: 'myanfood-337',
       ),
     );
   } else {

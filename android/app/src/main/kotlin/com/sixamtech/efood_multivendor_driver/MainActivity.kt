@@ -1,4 +1,4 @@
-package com.sixamtech.stack_food_delivery
+package com.myanfood.rider
 
 import io.flutter.embedding.android.FlutterFragmentActivity
 import io.flutter.embedding.engine.FlutterEngine
